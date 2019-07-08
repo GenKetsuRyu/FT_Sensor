@@ -13,7 +13,8 @@ Open the terminal in the folder ~/driver/ and use the following command to compi
 ```bash
 $ make linux
 ```
-Access to the virtual serial port and add the username to the group dialout                                                    (Superuser mode is required before using this command )
+Access to the virtual serial port and add the username to the group dialout
+(**superuser** mode is required before using this command )
 
 ```bash
 $ sudo su
