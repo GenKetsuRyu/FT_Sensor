@@ -15,7 +15,7 @@ $ make linux
 $ sudo su
 $ usermod -a -G dialout [your_username]
 ```
-After all, you can check your usermod status by following command:
+   After all, you can check your usermod status by following command:
 
 ```bash
 $ usermod -a -G dialout $[your_username]
