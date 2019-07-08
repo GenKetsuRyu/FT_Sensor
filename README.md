@@ -1,4 +1,12 @@
-# FT300 Sensor 
+# FT300 Sensor
+
+## Basic Specification
+
+SPECIFICATIONS OF PSU | FT-300 Sensor
+----------------------|:---------------:| 
+OUTPUT VOLTAGE RANGE  | 5 V ~ 24 V (DC)
+
+  
 
 ## Testing FT300 Sensor on your Ubuntu Linux environment
 
@@ -27,6 +35,8 @@ You can check the usermod status by using following comannd:
 ```bash
 $ usermod -a -G dialout $[your_username]
 ```
+
+
 
 
 # reference :
