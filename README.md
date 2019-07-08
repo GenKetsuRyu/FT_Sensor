@@ -2,7 +2,9 @@
 
 ## Testing FT300 Sensor on your Ubuntu Linux environment
 
-1. Copy the FT-300_dev_package_SDP-1.0.1_20180328.rar from Robotiq USB drive and unzip in your home folder.
+### Unzip the test Package
+
+Copy the FT-300_dev_package_SDP-1.0.1_20180328.rar from Robotiq USB drive and unzip in your home folder.
 
 2. Open the terminal in the folder ~/driver/ and use the following command to compile the application:
 
