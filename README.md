@@ -20,7 +20,7 @@ Access to the virtual serial port and add the username to the group dialout
 $ sudo su
 $ usermod -a -G dialout [your_username]
 ```
-Then, you need to **Logout and re-Login the session** to activate your group change
+Then, **Logout and re-Login the session** to activate your group change
 
 Also, You can check the usermod status by using following comannd:
 
