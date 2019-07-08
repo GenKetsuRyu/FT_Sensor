@@ -9,19 +9,19 @@
 ```bash
 $ make linux
 ```
-3. Access to the virtual serial port. (Before running this command, you need to open the superuser mode)
+3. Access to the virtual serial port and add the username to the group dialout                                                    (Before running this command, you need to open the superuser mode)
 
 ```bash
 $ sudo su
 $ usermod -a -G dialout [your_username]
 ```
 
-   After all, you can check your usermod status by following command:
 
 ```bash
 $ usermod -a -G dialout $[your_username]
 ```
-4.
+
+4. 
 # reference :
  
  [1] offical ros package: https://github.com/ros-industrial/robotiq/tree/hydro-devel/robotiq_force_torque_sensor
