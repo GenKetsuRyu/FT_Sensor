@@ -14,11 +14,11 @@ Sensing Range                 | from -300 N to +300 N
 
 ### Unzip the test Package
 
-Copy the FT-300_dev_package_SDP-1.0.1_20180328.rar from Robotiq USB drive and unzip in your home folder.
+Copy FT-300_dev_package_SDP-1.0.1_20180328.rar from Robotiq's USB driver and unzip in your home folder.
 
 ### Envronment Setting
 
-Open the terminal in the folder ~/driver/ and use the following command to compile the application:
+Open terminal in the folder **~/driver/** and use the following command to compile the application:
 
 ```bash
 $ make linux
