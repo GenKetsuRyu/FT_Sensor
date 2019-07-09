@@ -11,7 +11,7 @@ Sensing Range                 | from -300 N to +300 N
   
 
 
-## Testing FT300 Sensor on your Ubuntu Linux environment
+## Testing FT300 Sensor on Ubuntu Linux environment
 
 ### Unzip the test Package
 
