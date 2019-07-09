@@ -37,7 +37,7 @@ $ usermod -a -G dialout $[your_username]
 ```
 ### Testing 
 
-Power on your sensor acording to the **Basic Specification** above, make sure you power has provided the safe voltage range. Then, and connect your sensor to the PC using RS485-USB converter. You can check your connection by the following command:
+Power on your sensor acording to **Basic Specification** above, make sure you power has provided the safe voltage range. Then, and connect your sensor to the PC using RS485-USB converter. You can check your connection by the following command:
 
 ```bash
 $ $ ls -l /dev | grep ttyUSB
