@@ -37,7 +37,7 @@ $ usermod -a -G dialout [your_username]
 ```bash
 $ usermod -a -G dialout $[your_username]
 ```
-### Test
+### Testing
 
 1. Power on your sensor according to **Basic Specification** above, make sure your power supply is in the input voltage range. Then, connect your sensor to the PC using RS485-USB converter. You can check your connection by the following command:
 
