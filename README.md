@@ -10,11 +10,15 @@ Sensing Range                 | from -300 N to +300 N
 
   
 
+
 ## Testing FT300 Sensor on your Ubuntu Linux environment
 
 ### Unzip the test Package
 
 Copy FT-300_dev_package_SDP-1.0.1_20180328.rar from Robotiq's USB driver and unzip in your home folder.
+
+
+
 
 ### Envronment Setting
 
