@@ -12,27 +12,25 @@ Sensing Range                 | from -300 N to +300 N
 
 ## Testing FT300 Sensor on Ubuntu Linux environment
 
-### Unzip the test Package
-
-Copy FT-300_dev_package_SDP-1.0.1_20180328.rar from Robotiq's USB driver and unzip in your home folder.
-
 ### Envronment Setting
 
-1. Open terminal in the folder **~/driver/** and use the following command to compile the application:
+1. Copy FT-300_dev_package_SDP-1.0.1_20180328.rar from Robotiq's USB driver and unzip in your home folder.
+
+2. Open terminal in the folder **~/driver/** and use the following command to compile the application:
 
 ```bash
 $ make linux
 ```
-2. Access to the virtual serial port and add the username to the group dialout
+3. Access to the virtual serial port and add the username to the group dialout
 (**superuser** mode is required before using this command )
 
 ```bash
 $ sudo su
 $ usermod -a -G dialout [your_username]
 ```
-3. After all above commands have been done, it is required to **Logout and re-Login the session** in order to activate the group change
+4. After all above commands have been done, it is required to **Logout and re-Login the session** in order to activate the group change
 
-4. You can check the usermod status by using following comannd:
+5. You can check the usermod status by using following comannd:
 
 ```bash
 $ usermod -a -G dialout $[your_username]
