@@ -46,7 +46,7 @@ $ ls -l /dev | grep ttyUSB
 Open a terminal and go to the folder by **$ cd ~/driver/Linux/bin**, using the following comand to start the testing:
 
 ```bash
-$ $ ./driverSensor
+$ ./driverSensor
 ```
 
 
