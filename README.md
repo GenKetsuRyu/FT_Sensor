@@ -50,7 +50,7 @@ $ ./driverSensor
 ```
 ## Calibration
 
-Download the calibration software [**Visual Demo Software**]: https://robotiq.com/support/archive (The software must be installed on the **windows** environment)
+Download the calibration software **Visual Demo Software** （＃https://robotiq.com/support/archive) (The software must be installed on the **windows** environment)
 
 
 # reference :
