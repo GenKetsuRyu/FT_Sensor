@@ -8,6 +8,8 @@ Input Voltage Range           | from 5 V to 24 V (DC)
 Maximum Power Comsumption     | 2 W
 Sensing Range                 | from -300 N to +300 N
 
+***Warning: In order to avoided damaging the sensor, input voltage which over 26 V (DC) is strictly prohibited.** 
+
 ## Testing FT300 Sensor on Ubuntu Linux environment
 
 ### Unzip the test Package
