@@ -8,17 +8,11 @@ Input Voltage Range           | from 5 V to 24 V (DC)
 Maximum Power Comsumption     | 2 W
 Sensing Range                 | from -300 N to +300 N
 
-  
-
-
 ## Testing FT300 Sensor on Ubuntu Linux environment
 
 ### Unzip the test Package
 
 Copy FT-300_dev_package_SDP-1.0.1_20180328.rar from Robotiq's USB driver and unzip in your home folder.
-
-
-
 
 ### Envronment Setting
 
@@ -41,9 +35,13 @@ You can check the usermod status by using following comannd:
 ```bash
 $ usermod -a -G dialout $[your_username]
 ```
+### Testing 
 
+Power on your sensor acording to the **Basic Specification** above, make sure you power has provided the safe voltage range. Then, and connect your sensor to the PC using RS485-USB converter. You can check your connection by the following command:
 
-
+```bash
+$ $ ls -l /dev | grep ttyUSB
+```
 
 # reference :
  
