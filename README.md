@@ -50,6 +50,7 @@ $ ./driverSensor
 ```
 ## Calibration
 
+Download the calibration software **Visual Demo Software** (The software must be installed on the **windows** environment)
 
 
 # reference :
