@@ -48,7 +48,7 @@ Open a terminal and go to the folder by **$ cd ~/driver/Linux/bin**, using the f
 ```bash
 $ ./driverSensor
 ```
-## Setting the FT Sensor Development package on ROS
+## Calibration
 
 
 
