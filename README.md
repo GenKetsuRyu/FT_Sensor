@@ -43,7 +43,7 @@ Power on your sensor according to **Basic Specification** above, make sure your 
 $ ls -l /dev | grep ttyUSB
 ```
 
-Go to the folder by **$ cd ~/driver/Linux/bin** and using the following comand to start the testing:
+Open a terminal and go to the folder by **$ cd ~/driver/Linux/bin**, using the following comand to start the testing:
 
 ```bash
 $ $ ./driverSensor
