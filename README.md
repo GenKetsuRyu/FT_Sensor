@@ -2,9 +2,9 @@
 
 ## Basic Specification
 
-SPECIFICATIONS OF PSU | FT-300 Sensor
-----------------------|:---------------:| 
-OUTPUT VOLTAGE RANGE  | 5 V ~ 24 V (DC)
+Device Name                   | FT-300 Sensor
+------------------------------|:-------------------------------:| 
+Input Voltage Range           | 5 V ~ 24 V (DC)
 
   
 
