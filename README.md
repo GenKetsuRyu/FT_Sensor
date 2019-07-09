@@ -4,7 +4,9 @@
 
 Device Name                   | FT-300 Sensor
 ------------------------------|:-------------------------------:| 
-Input Voltage Range           | 5 V ~ 24 V (DC)
+Input Voltage Range           | from 5 V to 24 V (DC)
+Maximum Power Comsumption     | 2 W
+Sensing Range                 | from -300 N to +300 N
 
   
 
