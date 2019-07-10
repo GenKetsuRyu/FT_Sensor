@@ -21,8 +21,7 @@
 ```bash
 $ make linux
 ```
-3. Access to the virtual serial port and add the username to the group dialout
-(**superuser** mode is required before using this command )
+3. Access to the virtual serial port and add the username to the group dialout  (**Superuser** mode is required before using this command )
 
 ```bash
 $ sudo su
