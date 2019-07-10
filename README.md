@@ -98,7 +98,7 @@ $ usermod -a -G dialout [your_username]
 $ roscore
 ```
 
-6. Open a new Teminal by **ctrl+shift**, Starting your sensor on ROS:
+6. Open a new Terminal by **ctrl+shift**, Starting your sensor on ROS:
 
 ```bash
 $ . devel/setup.bash
