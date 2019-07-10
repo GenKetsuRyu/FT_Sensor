@@ -54,7 +54,12 @@ $ ./driverSensor
 
 2. follow the procedure below to compelete your sensor calibration:
 
-Step: Open the Software -> Go to "Calibration" -> Setup the FT Sensor on  your development environment (manipulator) -> Press "Lock image" to start the calibration -> Point the direction X, Y and Z of sensor downward below and press the relative calibration buttoms respectively -> After finishng all calibration procedure, go to "Sensor Data" and check your results.
+Step 1: Open the Software 
+Step 2: go to "**Calibration**" 
+Setp 3: Setup the FT Sensor on  your development environment (manipulator) 
+Step 4: Press "Lock Image" to start the calibration 
+Step 5: Point the direction X, Y and Z of sensor downward below and press the relative calibration buttoms respectively 
+Step 6: After finishng all the calibration procedure, go to "**Sensor Data**" and check your results
 
 
 # reference :
