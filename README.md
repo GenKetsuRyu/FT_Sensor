@@ -113,7 +113,7 @@ $ . devel/setup.bash
 
 $ rosrun robotiq_force_torque_sensor rq_test_sensor
 ```
-****Warning***: Any node execution shoud use **. devel/setup.bash** respectively in order to source the Catkin  workspace
+****Warning***: Any node execution shoud use **". devel/setup.bash"** respectively in order to source the Catkin  workspace
 
 # reference :
  
