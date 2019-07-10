@@ -32,7 +32,9 @@ $ usermod -a -G dialout [your_username]
 5. You can check the usermod status by using following comannd:
 
 ```bash
+$ sudo su
 $ usermod -a -G dialout $[your_username]
+$ exit
 ```
 ### Testing
 
