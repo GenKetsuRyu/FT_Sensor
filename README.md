@@ -52,6 +52,10 @@ $ ./driverSensor
 
 1. Download the calibration software [**Visual Demo Software**](https://robotiq.com/support/archive/) (The software must be installed on the **windows** environment)
 
+2. follow the procedure below to compelete your sensor calibration:
+
+Step: Open the Software -> Go to "Calibration" -> Setup the FT Sensor on  your development environment (manipulator) -> Press "Lock image" to start the calibration -> Point the direction X, Y and Z of sensor downward below and press the relative calibration buttoms respectively -> After finishng all calibration procedure, go to "Sensor Data" and check your results.
+
 
 # reference :
  
