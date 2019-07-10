@@ -8,7 +8,7 @@
    Maximum Power Comsumption     | 2 W
    Sensing Range                 | from -300 N to +300 N
 
-   *Warning: In order to avoid damaging the sensor, input voltage which over **26 V (DC)** is strictly prohibited.
+   ****Warning***: In order to avoid damaging the sensor, input voltage which over **26 V (DC)** is strictly prohibited.
 
 ## Testing FT-300 Sensor on Ubuntu Linux environment
 
@@ -72,6 +72,48 @@ $ ./driverSensor
 
 ## ROS Package Setup
 
+1. Download **robotiq_force_torque_sensor package** to your ROS workspace src  
+
+2. Open a terminal in your workspace and execute the following command to build your package:
+
+```bash
+$ catkin_make robotiq_force_torque_sensor_generate_messages
+
+$ catkin_make
+```
+
+3. Make sure that you have already accessed to the virtual serial port:
+
+```bash
+$ sudo su
+
+$ usermod -a -G dialout [your_username]
+```
+
+4. **Logout and re-Login** to the session to activate your change
+
+5. Execute the ROS:
+
+```bash
+$ roscore
+```
+
+6. Open a new Teminal by **ctrl+shift**, Starting your sensor on ROS:
+
+```bash
+$ . devel/setup.bash
+
+$ rosrun robotiq_force_torque_sensor rq_sensor
+```
+
+7. You can test your sensor by executing this node (Open another Terminal by **ctrl+shift**):
+
+```bash
+$ . devel/setup.bash
+
+$ rosrun robotiq_force_torque_sensor rq_test_sensor
+```
+****Warning***: Any node execution shoud use **. devel/setup.bash** respectively in order to source the Catkin  workspace
 
 # reference :
  
