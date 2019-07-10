@@ -58,7 +58,7 @@ $ ./driverSensor
 
    Step 2: go to "**Calibration**" 
 
-   Setp 3: Setup the FT Sensor on  your development environment (manipulator) 
+   Setp 3: Setup the FT Sensor on  your development environment (ex: manipulator) 
 
    Step 4: Press "Lock Image" to start the calibration 
 
