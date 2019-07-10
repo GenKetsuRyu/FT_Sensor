@@ -32,8 +32,12 @@ $ usermod -a -G dialout [your_username]
 5. You can check the usermod status by using following comannd:
 
 ```bash
+# usermod must open by superuser mode
 $ sudo su
+
 $ usermod -a -G dialout $[your_username]
+
+# use "exit" to close superuser mode
 $ exit
 ```
 ### Testing
