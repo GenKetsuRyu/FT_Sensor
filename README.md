@@ -1,8 +1,8 @@
-# FT300 Sensor
+# FT-300 Sensor
 
 ## Basic Specification
 
-   Device Name                   | FT300 Sensor
+   Device Name                   | FT-300 Sensor
    ------------------------------|:-------------------------------:| 
    Input Voltage Range           | from 5 V to 24 V (DC)
    Maximum Power Comsumption     | 2 W
@@ -10,7 +10,7 @@
 
    *Warning: In order to avoid damaging the sensor, input voltage which over **26 V (DC)** is strictly prohibited.
 
-## Testing FT300 Sensor on Ubuntu Linux environment
+## Testing FT-300 Sensor on Ubuntu Linux environment
 
 ### Envronment Setting
 
