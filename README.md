@@ -120,3 +120,5 @@ $ rosrun robotiq_force_torque_sensor rq_test_sensor
  [1] officail ros package: https://github.com/ros-industrial/robotiq/tree/hydro-devel/robotiq_force_torque_sensor
  
  [2] official ip (Visual Demo Software): https://robotiq.com/support/archive
+ 
+ [3] official document: https://assets.robotiq.com/website-assets/support_documents/document/FT_Sensor_Instruction_Manual_PDF_20181218.pdf
