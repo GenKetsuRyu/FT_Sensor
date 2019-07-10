@@ -56,7 +56,7 @@ $ ./driverSensor
 
 2. follow the Steps below to compelete your sensor calibration:
 
-Step 1: Open the Software 
+<center>Step 1: Open the Software </center>
 
 Step 2: go to "**Calibration**" 
 
