@@ -14,7 +14,7 @@
 
 ### Envronment Setting
 
-1. Copy FT-300_dev_package_SDP-1.0.1_20180328.rar from Robotiq's USB driver and unzip in your home folder.
+1. Copy FT-300_dev_package_SDP-1.0.1_20180328.rar from Robotiq's USB driver and unzip in your **Ubuntu** home folder.
 
 2. Open terminal in the folder **~/driver/** and use the following command to compile the application:
 
