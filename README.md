@@ -25,6 +25,7 @@ $ make linux
 
 ```bash
 $ sudo su
+
 $ usermod -a -G dialout [your_username]
 ```
 4. After all above commands have been done, it is required to **Logout and re-Login the session** in order to activate the group change
@@ -32,13 +33,11 @@ $ usermod -a -G dialout [your_username]
 5. You can check the usermod status by using following comannd:
 
 ```bash
-# Usermod must be opened by superuser mode.
-$ sudo su
+$ sudo su # Usermod must be opened by superuser mode.
 
 $ usermod -a -G dialout $[your_username]
 
-# Use "exit" to close superuser mode after your checks have done.
-$ exit
+$ exit # Use "exit" to close superuser mode after your checks have done.
 ```
 ### Testing
 
