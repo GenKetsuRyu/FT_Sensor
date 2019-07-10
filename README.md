@@ -90,7 +90,7 @@ $ sudo su
 $ usermod -a -G dialout [your_username]
 ```
 
-4. **Logout and re-Login** to the session to activate your change
+4. **Logout and re-Login** the session to activate your change
 
 5. Execute the ROS:
 
