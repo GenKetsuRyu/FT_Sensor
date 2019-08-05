@@ -52,7 +52,7 @@ $ ls -l /dev | grep ttyUSB
 ```bash
 $ ./driverSensor
 ```
-## Calibration
+## Calibration (for windows user)
 
 1. Download the calibration software [**Visual Demo Software**](https://robotiq.com/support/archive/) on **Windows** environment
 
