@@ -33,7 +33,7 @@ $ usermod -a -G dialout [your_username]
 
 4. After all above commands have been done, it is required to **Logout and re-Login the session** in order to activate the group change
 
-5. You can check the usermod status by using following comannd:
+5. (optional) You can check the usermod status by using following comannd:
 
 ```bash
 $ sudo su # Usermod must be opened by superuser mode.
@@ -41,6 +41,21 @@ $ sudo su # Usermod must be opened by superuser mode.
 $ usermod -a -G dialout $[your_username]
 
 $ exit # Use "exit" to close superuser mode after your checks have done.
+```
+
+6. (optional) Test if env setting success or not
+- the torque will display on terminal (value are without calibration)
+- 1. Power on your sensor according to **Basic Specification** above, 
+- 2. make sure your power supply is in the input voltage range. 
+- 3. connect your sensor to the PC using RS485-USB converter. 
+```bash
+$ ls -l /dev | grep ttyUSB
+```
+- 4. Open a terminal and using the following comand to start the testing for check the connection:
+```bash
+$ cd <ros_ws>/src/robotiq_force_torque_sensor/tools/FT_sensor/FT-300_dev_package_SDP-1.0.1_20180328/robotiq_ft_sensor_dev_v1.0.1/driver/Linux/bin
+
+$ ./driverSensor
 ```
 
 
@@ -93,22 +108,6 @@ $ rosrun robotiq_force_torque_sensor rq_test_sensor
 
 ****Warning***: Any node execution shoud use **". devel/setup.bash"** respectively in order to source the Catkin  workspace
 
-
-
-
-### Testing
-
-1. Power on your sensor according to **Basic Specification** above, make sure your power supply is in the input voltage range. Then, connect your sensor to the PC using RS485-USB converter. You can check the connection status by using the following command:
-
-```bash
-$ ls -l /dev | grep ttyUSB
-```
-
-2. Open a terminal and go to the folder by **$ cd ~/driver/Linux/bin**, using the following comand to start the testing:
-
-```bash
-$ ./driverSensor
-```
 
 
 ## Calibration (for windows user)
