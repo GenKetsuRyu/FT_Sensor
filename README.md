@@ -28,6 +28,7 @@ $ sudo su
 
 $ usermod -a -G dialout [your_username]
 ```
+
 4. After all above commands have been done, it is required to **Logout and re-Login the session** in order to activate the group change
 
 5. You can check the usermod status by using following comannd:
@@ -39,36 +40,7 @@ $ usermod -a -G dialout $[your_username]
 
 $ exit # Use "exit" to close superuser mode after your checks have done.
 ```
-### Testing (if use ros, overlook this step)
 
-1. Power on your sensor according to **Basic Specification** above, make sure your power supply is in the input voltage range. Then, connect your sensor to the PC using RS485-USB converter. You can check the connection status by using the following command:
-
-```bash
-$ ls -l /dev | grep ttyUSB
-```
-
-2. Open a terminal and go to the folder by **$ cd ~/driver/Linux/bin**, using the following comand to start the testing:
-
-```bash
-$ ./driverSensor
-```
-## Calibration (for windows user)
-
-1. Download the calibration software [**Visual Demo Software**](https://robotiq.com/support/archive/) on **Windows** environment
-
-2. follow the Steps below to compelete your sensor calibration:
-
-   Step 1: Open the Software
-
-   Step 2: go to "**Calibration**" 
-
-   Setp 3: Setup the FT Sensor on  your development environment (ex: manipulator) 
-
-   Step 4: Press "Lock Image" buttom to start the calibration 
-
-   Step 5: Point the direction X, Y and Z of sensor downward below and press the relative calibration buttoms respectively 
-
-   Step 6: After finishng all the calibration procedure, go to "**Sensor Data**" and check your results
 
 ## ROS Package Setup
 
@@ -114,6 +86,42 @@ $ . devel/setup.bash
 $ rosrun robotiq_force_torque_sensor rq_test_sensor
 ```
 ****Warning***: Any node execution shoud use **". devel/setup.bash"** respectively in order to source the Catkin  workspace
+
+
+
+
+### Testing
+
+1. Power on your sensor according to **Basic Specification** above, make sure your power supply is in the input voltage range. Then, connect your sensor to the PC using RS485-USB converter. You can check the connection status by using the following command:
+
+```bash
+$ ls -l /dev | grep ttyUSB
+```
+
+2. Open a terminal and go to the folder by **$ cd ~/driver/Linux/bin**, using the following comand to start the testing:
+
+```bash
+$ ./driverSensor
+```
+
+
+## Calibration (for windows user)
+
+1. Download the calibration software [**Visual Demo Software**](https://robotiq.com/support/archive/) on **Windows** environment
+
+2. follow the Steps below to compelete your sensor calibration:
+
+   Step 1: Open the Software
+
+   Step 2: go to "**Calibration**" 
+
+   Setp 3: Setup the FT Sensor on  your development environment (ex: manipulator) 
+
+   Step 4: Press "Lock Image" buttom to start the calibration 
+
+   Step 5: Point the direction X, Y and Z of sensor downward below and press the relative calibration buttoms respectively 
+
+   Step 6: After finishng all the calibration procedure, go to "**Sensor Data**" and check your results
 
 # reference :
  
