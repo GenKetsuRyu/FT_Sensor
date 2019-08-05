@@ -12,9 +12,11 @@
 
 ## Testing FT-300 Sensor on Ubuntu Linux environment
 
-### Envronment Setting
+### Envronment Setting (first time)
 
-1. clone this repo
+1. clone this repo 
+
+2. setup driver
 ```bash
 
 $ cd <ros_ws>/src/robotiq_force_torque_sensor/tools/FT_sensor/FT-300_dev_package_SDP-1.0.1_20180328/robotiq_ft_sensor_dev_v1.0.1/driver
@@ -42,19 +44,20 @@ $ exit # Use "exit" to close superuser mode after your checks have done.
 ```
 
 
-## ROS Package Setup
+## Setup ROS Package 
 
-1. Download **robotiq_force_torque_sensor package** to your ROS workspace src  
-
-2. Open a terminal in your workspace and execute the following command to build your package:
-
+1. make package
 ```bash
+$ cd <ros_ws>
+
+$ . devel/setup.bash
+
 $ catkin_make robotiq_force_torque_sensor_generate_messages
 
 $ catkin_make
 ```
 
-3. Make sure that you have already accessed to the virtual serial port:
+2. (optional) Make sure that you have already accessed to the virtual serial port:
 
 ```bash
 $ sudo su
@@ -62,9 +65,9 @@ $ sudo su
 $ usermod -a -G dialout [your_username]
 ```
 
-4. **Logout and re-Login** the session to activate your change
+3. (optional) **Logout and re-Login** the session to activate your change
 
-5. Execute the ROS:
+4. run ROS package:
 
 ```bash
 $ roscore
@@ -77,14 +80,17 @@ $ . devel/setup.bash
 
 $ rosrun robotiq_force_torque_sensor rq_sensor
 ```
+- Check the led on sensor change to blue light
 
-7. You can test your sensor by executing this node (Open another Terminal by **ctrl+shift**):
+7. Get torque value (Open another Terminal by **ctrl+shift**)::
 
 ```bash
 $ . devel/setup.bash
 
 $ rosrun robotiq_force_torque_sensor rq_test_sensor
 ```
+-  the calibration already complete when rosrun this node
+
 ****Warning***: Any node execution shoud use **". devel/setup.bash"** respectively in order to source the Catkin  workspace
 
 
