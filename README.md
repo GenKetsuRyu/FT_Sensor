@@ -14,11 +14,11 @@
 
 ### Envronment Setting
 
-1. Copy FT-300_dev_package_SDP-1.0.1_20180328.rar from Robotiq's USB driver and unzip in your **Ubuntu** home folder.
-
-2. Open terminal in the folder **~/driver/** and use the following command to compile the application:
-
+1. clone this repo
 ```bash
+
+$ cd <ros_ws>/src/robotiq_force_torque_sensor/tools/FT_sensor/FT-300_dev_package_SDP-1.0.1_20180328/robotiq_ft_sensor_dev_v1.0.1/driver
+
 $ make linux
 ```
 3. Access to the virtual serial port and add the username to the group dialout  (**Superuser** mode is required before using this command )
